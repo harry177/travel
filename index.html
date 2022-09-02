@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>travel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon-travel.ico">
+</head>
+<body>
+    <div class="pop-up hidden">
+        <div class="pop-up__title">Log in to your account</div>
+        <div class="pop-up__block pop-up__facebook">
+            <div class="fb__logo"></div>
+            Sign In with Facebook
+        </div>
+        <div class="pop-up__block pop-up__google">
+            <div class="google-logo"></div>
+            Sign In with Google
+        </div>
+        <div class="pop-up__border1">or</div>
+        <div class="input__name">E-mail</div>
+        <input class="pop-up__block email__sn"></input>
+        <div class="input__name">Password</div>
+        <input class="pop-up__block password__sn"></input>
+        <div class="pop-up__block pop-up__sign-in">Sign In</div>
+        <div class="pop-up__forgot">Forgot Your Password?</div>
+        <div class="pop-up__border2"></div>
+        <div class="pop-up__final__box">
+            <p class="pop-up__account">Don`t have an account?</p>
+            <p class="pop-up__register" id="registerLink">Register</p>
+        </div>
+        
+    </div>
+    
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-container">
+                <div class="logo-container">
+                    <a href="#" class="logo">
+                        <div class="logo-pic"></div>
+                        <p class="logo-name">Travel Portal</p>
+                    </a>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav1">
+                            <a href="#howitworks" class="catalogue">
+                                How It Works
+                            </a>
+                        </li>
+                        <li class="nav2">
+                            <a href="#planyourtrip" class="catalogue">
+                                Plan Your Trip
+                            </a>
+                        </li>
+                        <li class="nav3">
+                            <a href="#destinations" class="catalogue">
+                                Destinations
+                            </a>
+                        </li>
+                        <li class="nav4">
+                            <a href="#travelstories" class="catalogue">
+                                Travel Stories
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <form>
+                    <button class="header-button" id="loginButton" type="button">Login</button>
+                </form>
+                <div class="burger-icon"></div>
+                <div class="burger-menu">
+                    <div class="bg-close"></div>
+                        <ul class="bg-list">
+                            <li class="bg-point">
+                                <a class="bg-link" href="#howitworks" title="How It Works">How It Works</a>
+                            </li>
+                            <li class="bg-point">
+                                <a class="bg-link" href="#planyourtrip" title="Plan Your Trip">Plan Your Trip</a>
+                            </li>
+                            <li class="bg-point">
+                                <a class="bg-link" href="#destinations" title="Destinations">Destinations</a>
+                            </li>
+                            <li class="bg-point">
+                                <a class="bg-link" href="#travelstories" title="Travel Stories">Travel Stories</a>
+                            </li>
+                            <li class="bg-point">
+                                <a class="bg-link" href="#" title="Account" id="accountButton">Account</a>
+                            </li>
+                            <li class="bg-point">
+                                <a class="bg-link" href="#socialmedia" title="Social Media">Social Media</a>
+                            </li>
+                        </ul>
+                   </div>
+               </div>
+               <div class="page-shadow"></div>
+        </header>
+        <main class="main" id="closePopUp">
+        
+                <section class="preview" id="howitworks">
+                    <div class="intro">
+                        <div class="intro-block">
+                            <h1 class="main-title">Explore the beauty of the World</h1>
+                            <p class="main-description">Receive personalized recommendations for countries, hotels, activities and more</p>
+                            <div class="search search-border">
+                                <div class="search-phrase">What would you like to do?</div>
+                                <div class="search-button-box">
+                                    <form>
+                                        <button class="search-button">Start Planning</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            
+            <section class="steps" id="planyourtrip">
+                <div class="wrapper-title1">
+                    <div class="title-container">
+                        <h2 class="title">3 STEPS TO THE PERFECT TRIP</h2>
+                    </div>
+                </div>
+                <div class="icon-steps">
+                    <div class="step-container step-cont1">
+                        <a href="#">
+                            <div class="step-orange step-border step-or1">
+                                <div class="step-orange-core1"></div>
+                            </div>
+                        </a>
+                        <p class="step-orange-text sot1">Tell us what you want to do</p>
+                    </div>
+                    <div class="step-container step-cont2">
+                        <a href="#">
+                            <div class="step-orange step-border">
+                                <div class="step-orange-core2"></div>
+                            </div>
+                        </a>
+                        <p class="step-orange-text">Share us preferable dates</p>
+                    </div>
+                    <div class="step-container step-cont3">
+                        <a href="#">
+                            <div class="step-orange step-border step-or3">
+                                <div class="step-orange-core3"></div>
+                            </div>
+                        </a>
+                        <p class="step-orange-text sot3">We will give you recommendations</p>
+                    </div>
+                </div>
+            </section>
+            <section class="destinations" id="destinations">
+                <div class="wrapper-title2">
+                    <div class="title-container">
+                        <h2 class="title">POPULAR DESTINATIONS</h2>
+                    </div>
+                </div>
+                <div class="side-arrows">
+                    <div class="arrow-left"></div>
+                    <div class="arrow-right"></div>
+                </div>
+                <div class="slider">
+                    <div class="slider-container1">
+                            <picture>
+                                <source media="(max-width: 390px)" srcset="./assets/images/spain-390.jpg">
+                                <img src="./assets/images/spain.jpg" alt="SPAIN" class="slider-border">
+                            </picture>
+                            <p class="slider-name">SPAIN</p>
+                    </div>
+                    <div class="slider-container2">
+                        
+                        <picture>
+                            <source media="(max-width: 390px)" srcset="./assets/images/japan-390.jpg">
+                            <img src="./assets/images/japan.jpg" alt="JAPAN" class="slider-border">
+                        </picture>
+                            <p class="slider-name">JAPAN</p>
+                    </div>
+                    <div class="slider-container3">
+                        <picture>
+                            <source media="(max-width: 390px)" srcset="./assets/images/usa-390.jpg">
+                            <img src="./assets/images/usa.jpg" alt="USA" class="slider-border">
+                        </picture>
+                            <p class="slider-name">USA</p>
+                    </div>
+                </div>
+                <div class="wrapper-dest">
+                    <div class="ellipses">
+                        <div class="el-one"></div>
+                        <div class="el-two el-opacity"></div>
+                        <div class="el-three"></div>
+                    </div>
+                    <form>
+                        <button class="find-button">
+                            <div class="arrow"></div>
+                            <span class="text-button">Find More</span>
+                        </button>
+                    </form>
+                </div>
+            </section>
+            <section class="stories" id="travelstories">
+                <div class="wrapper-title3">
+                    <div class="title-container">
+                        <h2 class="title">TRAVEL STORIES</h2>
+                    </div>
+                </div>
+                <div class="final">
+                    <div class="wrapper-stories">
+                    <div class="travel-stories">
+                        <div class="travel-container">
+                            <picture>
+                                <source media="(max-width: 390px)" srcset="./assets/images/ts1-mob.jpg">
+                                <img src="./assets/images/ts1.jpg" alt="Travel story one" class="travel-border">
+                            </picture>
+                            <div class="travel-description">
+                                <p class="stories-title">10 Photos of Attractive Thailand</p>
+                                <p class="stories-text" lang="la">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                                <p class="stories-text-390" lang="la">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                                nulla.Lorem ipsum dolor sit a...</p>
+                                <p class="read-more-text">
+                                    <a href=# class="read-link">Read More</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="travel-container">
+                            <picture>
+                                <source media="(max-width: 390px)" srcset="./assets/images/ts2-mob.jpg">
+                                <img src="./assets/images/ts2.jpg" alt="Travel story two" class="travel-border">
+                            </picture>
+                            <div class="travel-description">
+                                <p class="stories-title">Canyonlands National Park, Utah</p>
+                                <p class="stories-text" lang="la">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                                <p class="stories-text-390" lang="la">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                                nulla.Lorem ipsum dolor sit a...</p>
+                                <p class="read-more-text">
+                                    <a href=# class="read-link">Read More</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="travel-container">
+                            <picture>
+                                <source media="(max-width: 390px)" srcset="./assets/images/ts3-mob.jpg">
+                                <img src="./assets/images/ts3.jpg" alt="Travel story three" class="travel-border">
+                            </picture>
+                            <div class="travel-description">
+                                <p class="stories-title">I left my heart in the Mountains!</p>
+                                <p class="stories-text" lang="la">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                                <p class="stories-text-390" lang="la">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                                nulla.Lorem ipsum dolor sit a...</p>
+                                <p class="read-more-text">
+                                    <a href=# class="read-link">Read More</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="travel-container">
+                            <picture>
+                                <source media="(max-width: 390px)" srcset="./assets/images/ts4-mob.jpg">
+                                <img src="./assets/images/ts4.jpg" alt="Travel story four" class="travel-border">
+                            </picture>
+                            <div class="travel-description">
+                                <p class="stories-title">The Longest journey in my life!</p>
+                                <p class="stories-text" lang="la">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                                <p class="stories-text-390" lang="la">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                                nulla.Lorem ipsum dolor sit a...</p>
+                                <p class="read-more-text">
+                                    <a href=# class="read-link">Read More</a>
+                                </p>
+                            </div>
+                        </div>
+                        <form>
+                            <button class="see-button">
+                                <div class="arrow"></div>
+                                <span class="text-button">See More</span>
+                            </button>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+            </section>
+        </main>    
+        <footer class="footer">
+            <div class="footer-container">
+                <p class="rights">All RIghts Reserved &#169; Travel Portal</p>
+                <div class="social-media" id="socialmedia">
+                    <a href="https://github.com/harry177">
+                        <div class="sm-box1"></div>
+                    </a>
+                    <a href="https://rs.school/js/">
+                        <div class="sm-box2"></div>
+                    </a>
+                    <a href="https://rs.school/js/">
+                        <div class="sm-box3"></div>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./index.js"></script>    
+</body>
+</html>
